@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="murta"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-10-28 03:07:33 PM"/>
+        <attribute name="created" value="bXVydGE7TEFQVE9QLTFNTkYzSk1VOzIwMjAtMTAtMjg7MDM6MDI6NDggUE07Mjg5OQ=="/>
+        <attribute name="edited" value="bXVydGE7TEFQVE9QLTFNTkYzSk1VOzIwMjAtMTAtMjg7MDM6MDc6MzMgUE07MTszMDA2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="LENGTH" type="Real" array="False" size=""/>
+            <declare name="WIDTH" type="Real" array="False" size=""/>
+            <declare name="AREA = LENGTH X WIDTH" type="Real" array="False" size=""/>
+            <declare name="PERIMETER = 2(LENGTH + WIDTH)" type="Real" array="False" size=""/>
+            <input variable="WIDTH"/>
+            <input variable="LENGTH"/>
+            <output expression="AREA" newline="True"/>
+            <output expression="PERIMETER" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
