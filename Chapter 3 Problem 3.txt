@@ -1,0 +1,23 @@
+Pseudo-Code
+
+main function
+
+BEGIN
+Read quantity,price
+Call: computeCost(quantity,price)
+Call: salesTax(cost)
+total=cost+salesTax
+print quantity,price,cost,salesTax,total
+END
+computeCost(quanity,price)
+
+BEGIN
+cost=quantityxprice
+return cost
+END
+ComputeSalesTax(cost)
+
+BEGIN
+SalesTax=cost x 7/100
+return salesTax
+END
